@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  margin: 75px auto;
+  width: 856px;
+  
+  .left-box {
+    width: 40%;
+    background: #b3d4d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    p {
+      font-size: 24px;
+      line-height: 1.5;
+      font-wieght: 400;
+      color: #fff;
+      font-family: "Helvetica Neue";
+      width: 239px;
+    }
+  }
+
+  .right-box {
+    width: 60%;
+    
+    img {
+      width: 505px;
+      height: 505px;
+    }
+  }
+}

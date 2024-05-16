@@ -1,0 +1,70 @@
+body {
+  font-family: 'PingFang TC',sans-serif;
+  padding: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 1138px;
+  margin: 0 auto;
+  background: #F5F5F5;
+  border: 1px solid #000 10%;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 555px;
+  background: #EAF0ED;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+.item img {
+  max-width: 245px;
+  max-height: 245px;
+  margin-top: 285.5px;
+  margin-bottom: 32px;
+  color: #EAF0ED;
+}
+
+.item h2 {
+  font-size: 48px;
+  line-height: 57.6px;
+  color: #3F5D45;
+  font-weight: 600;
+  margin-bottom: 285.5px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 36px;
+  margin-right: 16px;
+  margin-top: 209px;
+}
+
+.info p{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.6px;
+  margin-bottom: 32px;
+}
+
+.info h4 {
+  line-height: 33.6px;
+  font-size: 28px;
+  color: #3F5D45;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+.info h3 {
+  font-weight: 600;
+  color: #3F5D45;
+  font-size: 24px;
+  line-height: 38.4px;
+}

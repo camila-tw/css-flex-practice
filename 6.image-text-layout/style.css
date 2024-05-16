@@ -1,0 +1,78 @@
+body {
+  font-family: "PingFang TC", sans-serif;
+  background: #f5f5f5;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.container {
+  width: 910px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #3f5d45;
+  padding: 12px;
+  margin-top: 81px;
+  margin-bottom: 81px;
+}
+
+header {
+  background: #eaf0ed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header img {
+  padding-left: 32px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+header menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+  padding-right: 32px;
+  color: #3f5d45;
+}
+
+.content {
+  background: #fff;
+  display: flex;
+  padding: 28px 56px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.content img {
+  padding-right: 48px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-info h2 {
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+.text-info p {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 20px;
+  width: 550px;
+}
+
+.social-bar a {
+  color: #3f5d45;
+  font-size: 18px;
+  margin-right: 12px;
+}

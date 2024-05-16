@@ -1,0 +1,49 @@
+body {
+  font-family: 'PingFang TC',sans-serif;
+  padding: 2rem;
+}
+
+.container {
+  background: #F5F5F5;
+  border: 1px solid #000;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between; 
+  margin: 0 auto;
+  max-width: 1164px;
+  background: #3F5D45;
+}
+
+.item {
+  max-width: 372px;
+  background: #FFFFFF;
+}
+
+.item h2 {
+  font-size: 76px;
+  line-height: 91.2px;
+  text-align: center; 
+  padding: 84px 72px;
+  font-weight: 400;
+  color: #3F5D45;
+  background: #EAF0ED;
+}
+
+.info {
+  padding: 32px 16px 80px 36px;
+}
+
+.info h3 {
+  color: #3F5D45;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33.6px;
+  margin-bottom: 32px;
+}
+
+.info p {
+  font-weight: 400;
+  font-size: 24px;
+}

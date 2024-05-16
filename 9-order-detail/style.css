@@ -1,0 +1,75 @@
+body {
+  font-family: "PingFang TC", sans-serif;
+  background: #f5f5f5;
+  color: #829886;
+  line-height: 1.4;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 310px;
+  margin: 90px auto;
+  background: #fff;
+  padding: 6px;
+
+  .section-container {
+    background: #fff;
+    border: 1px solid #eaf0ed;
+  }
+
+  .order-info .price-detail {
+    padding: 16px;
+    .subtotal-box,
+    .transport-box,
+    .total-box {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .subtotal-box {
+      padding-bottom: 8px;
+    }
+
+    .transport-box {
+      padding-bottom: 16px;
+    }
+
+    .total-box {
+      font-weight: 600;
+      font-size: 20px;
+    }
+  }
+  .shopping-info .buyitem {
+    display: flex;
+    gap: 16px;
+    margin: 16px 16px;
+    
+    img {
+      width: 118px;
+      height: 73px;
+    }
+    
+    .item-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+      .price {
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.section-title {
+  background: #eaf0ed;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
